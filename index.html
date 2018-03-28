@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+
+  <title>Wish You Were Here | The Florida Theme Park Wait Time Portal</title>
+
+  <meta name="description" content="An interactive wait time portal for the top Florida theme parks.">
+  <meta charset="UTF-8">
+
+  <!-- mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy|Yanone+Kaffeesatz|Cabin">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css" />
+  
+  <!-- icon -->
+  <link rel="icon" type="image/png" href="images/favico.png">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Wish You Were Here</h1>
+  </header>
+
+  <main>
+
+    <div>
+      <div class="text-area">
+        <p>Get a glimpse of what's happening at your favorite Florida theme parks with <em>Wish You Were Here</em>, the happiest app on the web!</p>
+        <p>Just <strong>enter your zip code</strong> or <strong>choose an attraction</strong> below to compare weather and ride wait times quickly and conveniently.</p>
+      </div>
+    </div>
+
+    <div class="weather-area">
+      <div id="florida" class="weather-module"><div class="weather-head"><div class="loader"></div></div></div>
+      <div id="userWeather" class="weather-module">
+        <div class="weather-head"></div>
+        <div class="weather-body">
+          <input class="zip-code" placeholder="Enter your zip code!" /><button type="submit" name="zip-code-button" class="btn zip-code-button">Compare Weather</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-area">
+      <button type="submit" name="attractions-button" class="btn attractions-button">Add Attraction</button>
+    </div>
+
+    <div class="module-area">
+      <div id="attractions"><div id="first-attraction" class="attractions-module magic"><div class="loader"></div></div></div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="text-area footer">
+      <p><b>Please note</b> that this site relies on information drawn from outside sources that might not be readily available during your visit. Before reporting an error, please try making your request a second time.</p>
+      <p>If a weather report or wait time is consistently broken, contact the administrator of the site.</p>
+    </div>
+    <img class="wunderground" src="images/weather-underground.jpg" />
+  </footer>
+
+  <!-- javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="api.js"></script>
+  <script src="components/weather.js"></script>
+  <script src="components/attractions.js"></script>
+  <script src="client.js"></script>
+
+</body>
+
+</html>
