@@ -1,7 +1,8 @@
 <h1 align="center">Wish You Were Here</h1>
+<p align="center"><a href="https://contemptible.github.io/wish" target="_blank">(go to the live site)</a></p>
 
 <h3>Screenshots</h3>
-<p align="center"><a href="http://i.imgur.com/nxw9oHW.png" target="_blank"><img src="http://i.imgur.com/N3JBUiX.png"></a> <a href="http://i.imgur.com/pus7NZt.png" target="_blank"><img src="http://i.imgur.com/p93xLV5.png"></a></p>
+<p align="center"><a href="https://i.imgur.com/J7IS0zH.jpg" target="_blank"><img src="https://i.imgur.com/ZzR7qO5.jpg"></a></p>
 
 <h3>Project Summary</h3>
 <p>Wish You Were Here opens a door into the world of Florida's larger theme parks. It was created for entertainment purposes, because who doesn't like to sit at their desk and think about riding Splash Mountain in the sun.</p>
